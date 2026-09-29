@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <!-- PLACEHOLDER: substituir por foto real (.webp, 1200x900). Texto na metade DIREITA (lado "depois" do slider) -->
+  <rect width="1200" height="900" fill="#0c0c0c"/>
+  <rect x="40" y="40" width="1120" height="820" rx="20" fill="none" stroke="#00D818" stroke-opacity=".35" stroke-width="3" stroke-dasharray="16 14"/>
+  <text x="900" y="440" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-style="italic" font-size="56" fill="#00D818" fill-opacity=".6">FOTO</text>
+  <text x="900" y="500" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-style="italic" font-size="56" fill="#00D818" fill-opacity=".6">DEPOIS</text>
+</svg>

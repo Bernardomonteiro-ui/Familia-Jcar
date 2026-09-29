@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <!-- PLACEHOLDER: substituir por foto real (.webp, 1200x900). Texto na metade ESQUERDA (lado "antes" do slider) -->
+  <rect width="1200" height="900" fill="#181818"/>
+  <rect x="40" y="40" width="1120" height="820" rx="20" fill="none" stroke="#606060" stroke-width="3" stroke-dasharray="16 14"/>
+  <text x="300" y="440" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-style="italic" font-size="56" fill="#707070">FOTO</text>
+  <text x="300" y="500" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-style="italic" font-size="56" fill="#707070">ANTES</text>
+</svg>

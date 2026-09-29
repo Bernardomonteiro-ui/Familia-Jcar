@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ========== SEO LOCAL ========== -->
+  <title>Estética Automotiva em Mauá | Família JCar – Polimento e Higienização</title>
+  <meta name="description" content="Estética automotiva em Mauá (Vila Bocaina): polimento automotivo, higienização de bancos, lavagem detalhada e proteção de pintura. Nota 5,0 no Google. Agende pelo WhatsApp.">
+  <meta name="keywords" content="estética automotiva em Mauá, polimento automotivo Mauá, higienização de bancos Mauá, lavagem detalhada Mauá, vitrificação Mauá, ABC Paulista">
+  <meta name="theme-color" content="#000000">
+  <!-- [CONFIRMAR] domínio definitivo -->
+  <link rel="canonical" href="https://www.familiajcar.com.br/">
+
+  <!-- Open Graph (compartilhamento no WhatsApp/Instagram) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Família JCar Estética Automotiva – Mauá/SP">
+  <meta property="og:description" content="Cada carro tratado como se fosse o primeiro. Polimento, higienização e detalhamento em Mauá. Nota 5,0 no Google.">
+  <meta property="og:image" content="img/hero/hero_poster.jpg">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23000'/%3E%3Ctext x='50%25' y='58%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-weight='900' font-style='italic' font-size='40' fill='%2300D818'%3EJ%3C/text%3E%3C/svg%3E">
+
+  <!-- Fontes: Montserrat Regular / SemiBold / Bold + ExtraBold Italic -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,800&display=swap" rel="stylesheet">
+
+  <!-- Poster do hero carrega antes de tudo: nunca fica tela em branco -->
+  <link rel="preload" as="image" href="img/hero/hero_poster.jpg" fetchpriority="high">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Dados estruturados LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutomotiveBusiness",
+    "name": "Família JCar Estética Automotiva",
+    "description": "Estética automotiva em Mauá/SP: lavagem detalhada, higienização interna, polimento, proteção de pintura e detalhamento.",
+    "url": "https://www.familiajcar.com.br/",
+    "image": "https://www.familiajcar.com.br/img/hero/hero_poster.jpg",
+    "telephone": "+55-11-99009-4710",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "R. Brás Cubas, 411, Salão 01",
+      "addressLocality": "Mauá",
+      "addressRegion": "SP",
+      "postalCode": "09310-730",
+      "addressCountry": "BR"
+    },
+    "areaServed": ["Mauá", "Santo André", "Ribeirão Pires", "ABC Paulista"],
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "08:30",
+      "closes": "18:00"
+    }],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "bestRating": "5",
+      "reviewCount": "36"
+    },
+    "sameAs": ["https://www.instagram.com/familiajcarestetica/"]
+  }
+  </script>
+
+  <!-- Marca que o JS está ativo (as animações de entrada só escondem conteúdo se houver JS) -->
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- ========== 1. HEADER ========== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <!-- [CONFIRMAR] trocar o wordmark pelo arquivo do logo oficial:
+           <img src="img/logo/jcar-logo.svg" alt="Família JCar Estética Automotiva" width="140" height="40"> -->
+      <a class="logo" href="#hero" aria-label="Família JCar Estética Automotiva – início">
+        <span class="logo__mark">J<span class="logo__accent">C</span>AR</span>
+        <span class="logo__sub">Estética Automotiva</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navegação principal">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#servicos">Serviços</a></li>
+          <li><a class="nav__link" href="#resultados">Resultados</a></li>
+          <li><a class="nav__link" href="#como-funciona">Como funciona</a></li>
+          <li><a class="nav__link" href="#contato">Contato</a></li>
+        </ul>
+        <a class="btn btn--primary btn--sm nav__cta" href="https://wa.me/5511990094710?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20um%20servi%C3%A7o" target="_blank" rel="noopener">
+          Agendar pelo WhatsApp
+        </a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-controls="nav" aria-expanded="false" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- ========== 2. HERO ==========
+         Vídeo ocupando a seção inteira + véu escuro (gradiente) atrás do texto.
+         Arquivos esperados em img/hero/ (gere com scripts/encode-hero-video.ps1, já com faststart):
+           hero_video.mp4 / hero_video.webm          → desktop
+           hero_video_480.mp4 / hero_video_480.webm  → celular
+           hero_poster.jpg                           → quadro estático (gerado do vídeo) -->
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="hero__media" aria-hidden="true">
+        <video class="hero__video" id="heroVideo" autoplay muted loop playsinline preload="metadata"
+               poster="img/hero/hero_poster.jpg">
+          <source src="img/hero/hero_video_480.webm" type="video/webm" media="(max-width: 767px)">
+          <source src="img/hero/hero_video_480.mp4"  type="video/mp4"  media="(max-width: 767px)">
+          <source src="img/hero/hero_video.webm"     type="video/webm">
+          <source src="img/hero/hero_video.mp4"      type="video/mp4">
+        </video>
+        <div class="hero__veil"></div>
+        <!-- Brilho neon abstrato em movimento lento (CSS). Preenche o lado direito enquanto o vídeo carrega -->
+        <div class="hero__glow"></div>
+      </div>
+
+      <div class="container hero__content">
+        <p class="rating-badge reveal">
+          <span class="stars" aria-hidden="true">★★★★★</span>
+          <span><strong>5,0 no Google</strong> · 36 avaliações</span>
+        </p>
+
+        <h1 class="hero__title reveal" id="hero-title">
+          Cada carro tratado <span class="hl">como se fosse o&nbsp;primeiro</span>
+        </h1>
+
+        <p class="hero__subtitle reveal">
+          Estética automotiva de alto padrão em Mauá. Produto certo, técnica certa
+          e atenção em cada detalhe — do painel ao último friso.
+        </p>
+
+        <div class="hero__actions reveal">
+          <a class="btn btn--primary btn--lg" href="https://wa.me/5511990094710?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20um%20servi%C3%A7o" target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+            Agendar pelo WhatsApp
+          </a>
+          <a class="btn btn--outline btn--lg" href="#servicos">Ver serviços</a>
+        </div>
+      </div>
+
+      <a class="hero__scroll" href="#servicos" aria-label="Rolar para os serviços"><span></span></a>
+    </section>
+
+    <!-- ========== 3. SERVIÇOS ==========
+         Layout preparado para evoluir: .services__layout é um grid de 2 áreas.
+         Hoje só a área "cards" existe. No futuro, basta adicionar
+         <div class="services__stage"> (carro 3D interativo) dentro de .services__layout
+         e adicionar a classe .has-stage — o CSS já reorganiza os cards ao lado. -->
+    <section class="section services" id="servicos" aria-labelledby="servicos-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Serviços</p>
+          <h2 class="section__title" id="servicos-title">O cuidado que o seu carro merece</h2>
+          <p class="section__lead">Cada serviço feito no nosso estúdio, sem pressa, com produto profissional.</p>
+        </header>
+
+        <div class="services__layout">
+          <!-- FUTURO: <div class="services__stage" id="car3d"></div> -->
+
+          <ul class="services__grid" role="list">
+            <li class="card service reveal">
+              <svg class="card-icon" aria-hidden="true"><use href="#i-drop"/></svg>
+              <h3 class="service__name">Lavagem detalhada</h3>
+              <p class="service__desc">Lavagem técnica com shampoo neutro, descontaminação de rodas, frisos e caixas de roda.</p>
+              <p class="service__price">a partir de <strong>R$ [CONFIRMAR]</strong></p>
+            </li>
+            <li class="card service reveal">
+              <svg class="card-icon" aria-hidden="true"><use href="#i-seat"/></svg>
+              <h3 class="service__name">Higienização interna</h3>
+              <p class="service__desc">Higienização de bancos, carpetes, teto e painel. Tira mancha, odor e sujeira acumulada.</p>
+              <p class="service__price">a partir de <strong>R$ [CONFIRMAR]</strong></p>
+            </li>
+            <li class="card service reveal">
+              <svg class="card-icon" aria-hidden="true"><use href="#i-polish"/></svg>
+              <h3 class="service__name">Polimento</h3>
+              <p class="service__desc">Correção de riscos superficiais, marcas de lavagem e opacidade. Brilho de volta à pintura.</p>
+              <p class="service__price">a partir de <strong>R$ [CONFIRMAR]</strong></p>
+            </li>
+            <li class="card service reveal">
+              <svg class="card-icon" aria-hidden="true"><use href="#i-shield"/></svg>
+              <h3 class="service__name">Proteção de pintura</h3>
+              <p class="service__desc">Cera, selante ou vitrificação para proteger do sol, da chuva e facilitar as próximas lavagens.</p>
+              <p class="service__price">a partir de <strong>R$ [CONFIRMAR]</strong></p>
+            </li>
+            <li class="card service reveal">
+              <svg class="card-icon" aria-hidden="true"><use href="#i-spark"/></svg>
+              <h3 class="service__name">Detalhamento</h3>
+              <p class="service__desc">O pacote completo, por dentro e por fora. Para quem quer o carro no melhor estado possível.</p>
+              <p class="service__price">a partir de <strong>R$ [CONFIRMAR]</strong></p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="section__cta reveal">
+          <a class="btn btn--primary" href="https://wa.me/5511990094710?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20um%20servi%C3%A7o" target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+            Pedir orçamento
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 4. ANTES E DEPOIS ==========
+         Para trocar as fotos: substitua os src de cada par (antes/depois) por fotos reais,
+         mesmo enquadramento e mesma proporção (4:3), ex.: img/resultados/polimento-antes.webp
+         Recomendado: .webp, 1200x900, até ~150 KB cada. Atualize também o alt. -->
+    <section class="section results" id="resultados" aria-labelledby="resultados-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Resultados</p>
+          <h2 class="section__title" id="resultados-title">Arraste e veja a diferença</h2>
+          <p class="section__lead">Trabalhos reais feitos no estúdio.</p>
+        </header>
+
+        <div class="results__grid">
+          <figure class="ba-figure reveal">
+            <div class="ba" data-ba>
+              <img class="ba__img" src="img/resultados/placeholder-antes.svg" alt="[CONFIRMAR] Antes do polimento: pintura opaca e com marcas" width="1200" height="900" loading="lazy" decoding="async">
+              <div class="ba__after">
+                <img class="ba__img" src="img/resultados/placeholder-depois.svg" alt="[CONFIRMAR] Depois do polimento: pintura com brilho e sem marcas" width="1200" height="900" loading="lazy" decoding="async">
+              </div>
+              <span class="ba__label ba__label--before">Antes</span>
+              <span class="ba__label ba__label--after">Depois</span>
+              <div class="ba__handle" role="slider" tabindex="0" aria-label="Comparar antes e depois" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"></div>
+            </div>
+            <figcaption>Polimento</figcaption>
+          </figure>
+
+          <figure class="ba-figure reveal">
+            <div class="ba" data-ba>
+              <img class="ba__img" src="img/resultados/placeholder-antes.svg" alt="[CONFIRMAR] Antes da higienização: banco com manchas" width="1200" height="900" loading="lazy" decoding="async">
+              <div class="ba__after">
+                <img class="ba__img" src="img/resultados/placeholder-depois.svg" alt="[CONFIRMAR] Depois da higienização: banco limpo" width="1200" height="900" loading="lazy" decoding="async">
+              </div>
+              <span class="ba__label ba__label--before">Antes</span>
+              <span class="ba__label ba__label--after">Depois</span>
+              <div class="ba__handle" role="slider" tabindex="0" aria-label="Comparar antes e depois" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"></div>
+            </div>
+            <figcaption>Higienização de bancos</figcaption>
+          </figure>
+
+          <figure class="ba-figure reveal">
+            <div class="ba" data-ba>
+              <img class="ba__img" src="img/resultados/placeholder-antes.svg" alt="[CONFIRMAR] Antes da lavagem detalhada: rodas sujas" width="1200" height="900" loading="lazy" decoding="async">
+              <div class="ba__after">
+                <img class="ba__img" src="img/resultados/placeholder-depois.svg" alt="[CONFIRMAR] Depois da lavagem detalhada: rodas limpas" width="1200" height="900" loading="lazy" decoding="async">
+              </div>
+              <span class="ba__label ba__label--before">Antes</span>
+              <span class="ba__label ba__label--after">Depois</span>
+              <div class="ba__handle" role="slider" tabindex="0" aria-label="Comparar antes e depois" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"></div>
+            </div>
+            <figcaption>Lavagem detalhada</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 5. DIFERENCIAIS (com base nas avaliações reais) ========== -->
+    <section class="section features" id="diferenciais" aria-labelledby="diferenciais-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Por que a JCar</p>
+          <h2 class="section__title" id="diferenciais-title">O que os clientes mais elogiam</h2>
+        </header>
+
+        <ul class="features__grid" role="list">
+          <li class="card feature reveal">
+            <svg class="card-icon" aria-hidden="true"><use href="#i-flask"/></svg>
+            <h3 class="feature__title">Produtos de qualidade</h3>
+            <p>Linha profissional, escolhida para cada superfície. Nada de produto que agride pintura ou plástico.</p>
+          </li>
+          <li class="card feature reveal">
+            <svg class="card-icon" aria-hidden="true"><use href="#i-gear"/></svg>
+            <h3 class="feature__title">Equipamentos modernos</h3>
+            <p>Politrizes, extratoras e iluminação técnica para enxergar e corrigir cada detalhe.</p>
+          </li>
+          <li class="card feature reveal">
+            <svg class="card-icon" aria-hidden="true"><use href="#i-grid"/></svg>
+            <h3 class="feature__title">Local organizado</h3>
+            <p>Estúdio limpo e coberto. Seu carro fica protegido do começo ao fim do serviço.</p>
+          </li>
+          <li class="card feature reveal">
+            <svg class="card-icon" aria-hidden="true"><use href="#i-chat"/></svg>
+            <h3 class="feature__title">Atendimento personalizado</h3>
+            <p>A gente explica o que o seu carro precisa — e o que ele não precisa. Sem empurrar serviço.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========== 6. COMO FUNCIONA ========== -->
+    <section class="section steps" id="como-funciona" aria-labelledby="como-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Como funciona</p>
+          <h2 class="section__title" id="como-title">Simples assim</h2>
+        </header>
+
+        <ol class="steps__list">
+          <li class="card step reveal">
+            <div class="step__top">
+              <svg class="card-icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+              <span class="step__num" aria-hidden="true">01</span>
+            </div>
+            <h3 class="step__title">Chame no WhatsApp</h3>
+            <p>Conte o modelo do carro e o que você quer. Se puder, mande uma foto.</p>
+          </li>
+          <li class="card step reveal">
+            <div class="step__top">
+              <svg class="card-icon" aria-hidden="true"><use href="#i-calendar"/></svg>
+              <span class="step__num" aria-hidden="true">02</span>
+            </div>
+            <h3 class="step__title">Agende o horário</h3>
+            <p>Passamos o orçamento e combinamos o melhor dia para você.</p>
+          </li>
+          <li class="card step reveal">
+            <div class="step__top">
+              <svg class="card-icon" aria-hidden="true"><use href="#i-key"/></svg>
+              <span class="step__num" aria-hidden="true">03</span>
+            </div>
+            <h3 class="step__title">Retire o carro renovado</h3>
+            <p>Entregamos o carro pronto, revisado e com aquele cheiro de novo.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ========== 7. DEPOIMENTOS (Google, nota 5,0) ==========
+         Copie o texto e o nome exatamente como estão no Google. Não inventar. -->
+    <section class="section testimonials" id="depoimentos" aria-labelledby="depoimentos-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Depoimentos</p>
+          <h2 class="section__title" id="depoimentos-title">Quem já trouxe o carro, recomenda</h2>
+          <p class="rating-badge rating-badge--inline">
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            <span><strong>5,0 no Google</strong> · 36 avaliações</span>
+          </p>
+        </header>
+
+        <ul class="testimonials__grid" role="list">
+          <li class="card testimonial reveal">
+            <p class="stars" aria-label="5 de 5 estrelas">★★★★★</p>
+            <blockquote><p>“[CONFIRMAR trecho da avaliação]”</p></blockquote>
+            <p class="testimonial__author">[CONFIRMAR nome do cliente] <span>· Google</span></p>
+          </li>
+          <li class="card testimonial reveal">
+            <p class="stars" aria-label="5 de 5 estrelas">★★★★★</p>
+            <blockquote><p>“[CONFIRMAR trecho da avaliação]”</p></blockquote>
+            <p class="testimonial__author">[CONFIRMAR nome do cliente] <span>· Google</span></p>
+          </li>
+          <li class="card testimonial reveal">
+            <p class="stars" aria-label="5 de 5 estrelas">★★★★★</p>
+            <blockquote><p>“[CONFIRMAR trecho da avaliação]”</p></blockquote>
+            <p class="testimonial__author">[CONFIRMAR nome do cliente] <span>· Google</span></p>
+          </li>
+        </ul>
+
+        <div class="section__cta reveal">
+          <!-- [CONFIRMAR] link do perfil no Google (Compartilhar > copiar link) -->
+          <a class="btn btn--outline" href="https://www.google.com/maps/search/?api=1&query=Fam%C3%ADlia+JCar+Est%C3%A9tica+Automotiva+Mau%C3%A1" target="_blank" rel="noopener">
+            Ver todas no Google
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 8. LOCALIZAÇÃO E HORÁRIO ========== -->
+    <section class="section contact" id="contato" aria-labelledby="contato-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Contato</p>
+          <h2 class="section__title" id="contato-title">Venha conhecer o estúdio</h2>
+        </header>
+
+        <!-- =====================================================================
+             FUTURO: ORÇADOR GUIADO EM 3 PASSOS
+             Entra AQUI, antes do grid de contato (ou como coluna extra dele).
+               Passo 1 – Porte do veículo  (hatch / sedã / SUV / picape)
+               Passo 2 – Serviços          (seleção múltipla dos cards de #servicos)
+               Passo 3 – Estado atual      (bom / médio / precisa de atenção + foto opcional)
+             Ao final: gerar a mensagem e abrir o wa.me já preenchido com as respostas.
+             Sugestão de marcação: <section class="quote" id="orcamento"> ... </section>
+             ===================================================================== -->
+
+        <div class="contact__grid">
+          <div class="card contact__info reveal">
+            <div class="contact__item">
+              <svg class="contact__icon" aria-hidden="true"><use href="#i-pin"/></svg>
+              <div>
+                <h3>Endereço</h3>
+                <address>
+                  R. Brás Cubas, 411, Salão 01<br>
+                  Vila Bocaina, Mauá/SP<br>
+                  CEP 09310-730
+                </address>
+              </div>
+            </div>
+
+            <div class="contact__item">
+              <svg class="contact__icon" aria-hidden="true"><use href="#i-clock"/></svg>
+              <div>
+                <h3>Horário</h3>
+                <p>Segunda a sexta: 8h30 às 18h<br>Sábado e domingo: fechado</p>
+              </div>
+            </div>
+
+            <div class="contact__item">
+              <svg class="contact__icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+              <div>
+                <h3>WhatsApp</h3>
+                <p><a href="https://wa.me/5511990094710?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20um%20servi%C3%A7o" target="_blank" rel="noopener">(11) 99009-4710</a></p>
+              </div>
+            </div>
+
+            <div class="contact__actions">
+              <a class="btn btn--primary" href="https://wa.me/5511990094710?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20um%20servi%C3%A7o" target="_blank" rel="noopener">
+                <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+                Agendar pelo WhatsApp
+              </a>
+              <a class="btn btn--outline" href="https://www.google.com/maps/dir/?api=1&destination=R.+Br%C3%A1s+Cubas,+411+-+Vila+Bocaina,+Mau%C3%A1+-+SP,+09310-730" target="_blank" rel="noopener">
+                Como chegar
+              </a>
+            </div>
+          </div>
+
+          <div class="contact__map reveal">
+            <iframe
+              title="Mapa: Família JCar Estética Automotiva, R. Brás Cubas, 411, Vila Bocaina, Mauá/SP"
+              src="https://www.google.com/maps?q=R.+Br%C3%A1s+Cubas,+411+-+Vila+Bocaina,+Mau%C3%A1+-+SP,+09310-730&output=embed"
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 9. CTA FINAL ========== -->
+    <section class="cta-band" aria-labelledby="cta-title">
+      <div class="container cta-band__inner reveal">
+        <h2 class="cta-band__title" id="cta-title">Agende agora e <span class="hl">veja a diferença</span></h2>
+        <p>Resposta rápida no WhatsApp, de segunda a sexta.</p>
+        <a class="btn btn--primary btn--lg" href="https://wa.me/5511990094710?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20um%20servi%C3%A7o" target="_blank" rel="noopener">
+          <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+          Chamar no WhatsApp
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== 10. RODAPÉ ========== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a class="logo" href="#hero" aria-label="Família JCar Estética Automotiva – voltar ao topo">
+          <span class="logo__mark">J<span class="logo__accent">C</span>AR</span>
+          <span class="logo__sub">Estética Automotiva</span>
+        </a>
+        <p>Cada carro tratado como se fosse o primeiro.</p>
+      </div>
+
+      <div>
+        <h2 class="footer__title">Contato</h2>
+        <ul class="footer__list" role="list">
+          <li><a href="https://wa.me/5511990094710?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20um%20servi%C3%A7o" target="_blank" rel="noopener">WhatsApp (11) 99009-4710</a></li>
+          <li><a href="https://www.instagram.com/familiajcarestetica/" target="_blank" rel="noopener">Instagram @familiajcarestetica</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="footer__title">Endereço</h2>
+        <address class="footer__address">
+          R. Brás Cubas, 411, Salão 01<br>
+          Vila Bocaina, Mauá/SP · 09310-730<br>
+          Seg a sex, 8h30 às 18h
+        </address>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>© <span id="year">2026</span> Família JCar Estética Automotiva. Todos os direitos reservados.</p>
+      <!-- [CONFIRMAR] crédito de desenvolvimento / CNPJ, se quiser exibir -->
+      <p>Desenvolvido por [CONFIRMAR]</p>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante de WhatsApp -->
+  <a class="wa-float" href="https://wa.me/5511990094710?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20um%20servi%C3%A7o" target="_blank" rel="noopener" aria-label="Agendar pelo WhatsApp">
+    <svg aria-hidden="true"><use href="#i-whatsapp"/></svg>
+  </a>
+
+  <!-- ========== ÍCONES (sprite SVG inline, traço) ========== -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+    <symbol id="i-whatsapp" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91C21.95 6.45 17.5 2 12.04 2Zm0 18.15c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24 4.54 0 8.24 3.7 8.24 8.24 0 4.55-3.7 8.24-8.24 8.24Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28Z"/>
+    </symbol>
+    <symbol id="i-drop" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11Z"/><path d="M9 14.5a3 3 0 0 0 3 3"/>
+    </symbol>
+    <symbol id="i-seat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M8 3h5a2 2 0 0 1 2 2l-1 8H7L6 5a2 2 0 0 1 2-2Z"/><path d="M5 13h12a2 2 0 0 1 2 2v2H5v-4Z"/><path d="M7 17v4M17 17v4"/>
+    </symbol>
+    <symbol id="i-polish" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3.5"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2"/>
+    </symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6l-8-3Z"/><path d="m8.5 12 2.5 2.5 4.5-5"/>
+    </symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 3v4M12 17v4M3 12h4M17 12h4"/><path d="m12 8 1.2 2.8L16 12l-2.8 1.2L12 16l-1.2-2.8L8 12l2.8-1.2L12 8Z"/>
+    </symbol>
+    <symbol id="i-flask" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M9 3h6M10 3v6L4.5 18.5A1.7 1.7 0 0 0 6 21h12a1.7 1.7 0 0 0 1.5-2.5L14 9V3"/><path d="M7.5 15h9"/>
+    </symbol>
+    <symbol id="i-gear" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1Z"/>
+    </symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/>
+    </symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12Z"/><path d="M8.5 11h7M8.5 14h4"/>
+    </symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 21s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12Z"/><circle cx="12" cy="9" r="2.5"/>
+    </symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>
+    </symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/><path d="m9 15 2 2 4-4"/>
+    </symbol>
+    <symbol id="i-key" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="8" cy="15" r="4"/><path d="m11 12 9-9M17 6l3 3M14 9l2 2"/>
+    </symbol>
+  </svg>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
